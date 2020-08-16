@@ -13,6 +13,7 @@ const forecast = (latitude,longtitude,callback)=>{
                 
                 {
                 weather_descriptions: body.current.weather_descriptions[0],
+                weather_icons: body.current.weather_icons[0],
                 temperature: body.current.temperature,
                 feelslike: body.current.feelslike
             })
